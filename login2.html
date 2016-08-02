@@ -1,0 +1,61 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>LOGIN FORM </title>
+<script>
+function submitFunction()
+{
+var x=document.forms["myform"]["username"].value;
+var y=document.forms["myform"]["password"].value;
+if(x==null ||x=="" || y==null|| y=="")
+{
+alert("both fields cant't be empty");
+}
+    else
+ {
+    if(x=="bhuvana")
+    {
+	if(y=="12345")
+	{
+	alert("login successfully");
+	}
+
+else if
+ {
+alert("pasword does not match");
+ }
+    }
+else if
+ {
+alert(" username dopes not match");
+ }
+}
+
+</script>
+</head>
+<br/> <br/>
+<h1 align="center">   WELCOME TO MODERN WORLD </h1> 
+<body>
+<form name="myform"   onsubmit="return submitFunction()"   method="post" action="wel.html"   >
+
+
+
+<h2> LOGIN FORM </h2> <br>
+<div clas="form-input">
+<input type="text" name="username" placeholder="enter your name"/> <br/> <br/>
+</div>
+<div class="form-input">
+<input type="password" name="password" placeholder="enter your pass"/> <br/><br/>
+</div>
+<input type="submit" value="submit" class="btn-login"/>
+
+<intput type="sign up" value="text">
+	<a href="regst.html"> sign up </a>
+
+
+<p> Forget Password? </p>
+
+</form>
+</body>
+
+</html>
